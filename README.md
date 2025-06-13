@@ -35,3 +35,18 @@ Practical programs
         }
     }
 ```
+
+#### Check Factorial
+```javascript
+    function findFactorial(inputNum){
+    var fact=1;
+    for(var i=1; i<=inputNum; i++){
+        fact*=i
+    }
+
+    console.log(fact)
+}
+
+// Calling the above funvtion
+findFactorial(Number(prompt("Enter a number to check fact of it")))
+```
