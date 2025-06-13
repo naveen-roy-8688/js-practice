@@ -49,4 +49,6 @@ Practical programs
 
 // Calling the above funvtion
 findFactorial(Number(prompt("Enter a number to check fact of it")))
+
+findFactorial(5)
 ```
