@@ -78,3 +78,11 @@ console.log(reverseString.split(''))
 console.log(reverseString.split('').reverse())
 console.log(reverseString.split('').reverse().join(''))
 ```
+
+####forEach function in js
+```javascript
+var cars=["Maruti Suzuki","Tata, Hyundai","Mahindra","Kia"]
+cars.forEach(function (index,values){
+    console.log(values +"=>"+ index)
+})
+```
