@@ -70,3 +70,11 @@ if(a%2==0){
 }  
 }
 ```
+
+### Reverse String 
+```javascript
+var reverseString="Vasant"
+console.log(reverseString.split(''))
+console.log(reverseString.split('').reverse())
+console.log(reverseString.split('').reverse().join(''))
+```
