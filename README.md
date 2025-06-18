@@ -1,7 +1,7 @@
 # js-practice
 #### Symbols
-**{}** => Braces__
-**[]** => Brackets or Square brackets__
+**{}** => Braces<br>
+**[]** => Brackets or Square brackets
 **()** => Parantheses
 
 
