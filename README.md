@@ -1,8 +1,8 @@
 # js-practice
 #### Symbols
-```python
 **{}** => Called as braces
-```
+
+
 
 Practical programs
 
