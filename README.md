@@ -52,3 +52,14 @@ findFactorial(Number(prompt("Enter a number to check fact of it")))
 
 findFactorial(5)
 ```
+#### Checking weather the given number is even or odd
+```javascript
+function return1(){
+  var a = 4;
+if(a%2==0){
+    return("Even")
+} else {
+    return("Not an Even")
+}  
+}
+```
