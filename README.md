@@ -416,3 +416,15 @@ for (i=0;i<array.length;i++){
     console.log(array[i].name)
 }
 ```
+## morethan 20k salary 
+```javascript
+for (i=0;i<array.length;i++){
+    if (array[i].salary > 200000){
+        console.log(array[i])}
+```
+# have morethan 20k salary names
+```javascript
+for (i=0;i<array.length;i++){
+    if (array[i].salary > 200000){
+        console.log(array[i].name)}
+```
