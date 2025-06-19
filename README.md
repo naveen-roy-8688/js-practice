@@ -405,3 +405,14 @@ splice(start_index, num_of_elemets_tobe_deleted, num_of_elements_tobe_add)
 sampleArray.splice(5)
 
 ```
+
+## Array of object
+``` javascript
+var array=[{name:"Hanu", age:33,salary:180000},{name:"Pavan",age:28,salary:2000000},{name:"Naveen",age:29,salary:3000000},{name:"Purugu",age:22,salary:100000},{name:"Petta",age:26,salary:600000},{name:"Kasim",age:23,salary:300000}]
+for (i=0;i<array.length;i++){
+    console.log(array[i])
+}
+for (i=0;i<array.length;i++){
+    console.log(array[i].name)
+}
+```
