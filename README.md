@@ -428,3 +428,39 @@ for (i=0;i<array.length;i++){
     if (array[i].salary > 200000){
         console.log(array[i].name)}
 ```
+## DOM manipulation by creating dynamic element
+``` javascript
+index.html
+.......................
+
+<div id="myelement">Old Text</div>
+
+index.js
+..................
+var divElement=document.getElementById("myelement");
+
+var ul=document.createElement("ul")
+var li=document.createElement("li")
+li.textContent="Tiger Naveen"
+
+ul.appendChild(li)
+divElement.appendChild(ul)
+```
+## Dynamically creating DOM elements
+```javascript
+___________________________________________
+
+var divElement=document.getElementById("myelement");
+
+var listOfAnimals=["Lion", "Tiger", "Liger", "Tigon"];
+
+var ul=document.createElement("ul")
+
+listOfAnimals.map(animalItem=>{
+    var li=document.createElement("li")
+    li.textContent=animalItem;
+    ul.appendChild(li)
+})
+
+divElement.appendChild(ul)
+```javascript
