@@ -464,3 +464,13 @@ listOfAnimals.map(animalItem=>{
 
 divElement.appendChild(ul)
 ```javascript
+
+## Number converts into string
+
+```javascript
+var num=100
+var str=String(num)
+console.log(str)
+console.log(typeof str)
+
+```javascript
