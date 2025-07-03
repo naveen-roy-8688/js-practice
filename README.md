@@ -481,4 +481,17 @@ var num=Number(str)
 console.log(str)
 console.log(typeof num)
 ```
+## (OR)
+```javascript
+var str="45px"
+var num=parseInt(str)
+console.log(num)
+```
+## Number or String coverts into Boolean
+```javscript
+var val=Boolean(0)
+var val1=Boolean("Hello")
+console.log(val)
+console.log(val1)
+```
 
