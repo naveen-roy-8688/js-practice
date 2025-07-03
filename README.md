@@ -473,4 +473,12 @@ var str=String(num)
 console.log(str)
 console.log(typeof str)
 
+```
+## String converts into number
 ```javascript
+var str="40"
+var num=Number(str)
+console.log(str)
+console.log(typeof num)
+```
+
