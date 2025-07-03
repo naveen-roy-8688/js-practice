@@ -463,7 +463,7 @@ listOfAnimals.map(animalItem=>{
 })
 
 divElement.appendChild(ul)
-```javascript
+```
 
 ## Number converts into string
 
@@ -504,6 +504,12 @@ shift=>removing the first left value
 unshift=>it's adding new value in first index
 sampleArray1.shift()
 sampleArray1.unshift("banana")
+```
+## slice usage
+``javascript
+var sampleArray1=["mango","orange","apple","pine apple","custed"]
+sampleArray1.slice(0,3)
+sampleArray.slice(-1)   ---->"custed"
 ```
 
 
