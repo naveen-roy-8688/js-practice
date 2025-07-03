@@ -494,4 +494,16 @@ var val1=Boolean("Hello")
 console.log(val)
 console.log(val1)
 ```
+## Splice usage
+```javascript
+SYN:(Start,Delete count,add items)
+var sampleArray1=["mango","orange","apple","pine apple","custed"]
+sampleArray1.splice(0,1,"banana")
+
+shift=>removing the first left value
+unshift=>it's adding new value in first index
+sampleArray1.shift()
+sampleArray1.unshift("banana")
+```
+
 
