@@ -511,5 +511,50 @@ var sampleArray1=["mango","orange","apple","pine apple","custed"]
 sampleArray1.slice(0,3)
 sampleArray.slice(-1)   ---->"custed"
 ```
+## find maximun value from the array.
+``` javascript
+const findMax=(sampleArray=[1,2,45,67,76,12])=>{
+   var max=0;
+    for(var i=0; i<sampleArray.length; i++){
+        if(sampleArray[i]>max){
+            max=sampleArray[i]
+        }
+    }
+    return max;
+}
+```
+## find the minimum number in array
+
+```javascript
+const findMax=(sampleArray=[1,2,45,67,76,12])=>{
+   var max=76;
+    for(var i=0; i<sampleArray.length; i++){
+        if(sampleArray[i]<max){
+            max=sampleArray[i]
+        }
+    }
+    return max;
+}
+undefined
+findMax()
+
+```
+
+## how to print values in ascending order from array
+
+```javascript
+const findMax=(sampleArray=[1,2,45,67,76,12])=>{
+   var max=76;
+    for(var i=0; i<sampleArray.length; i++){
+        if(sampleArray[i]<max){
+            max=sampleArray[i]
+        }
+    }
+    return max;
+}
+findMax()
+```
+
+
 
 
