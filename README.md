@@ -554,7 +554,75 @@ const findMax=(sampleArray=[1,2,45,67,76,12])=>{
 }
 findMax()
 ```
+## js
+``` js
+var todoItems=[];
 
+var list=document.getElementById("list");
+
+var submitTodoItem=function(){
+var todoItem=document.getElementById("todoItem").value
+todoItems.push(todoItem);
+
+for(var i of todoItems){
+  var li=document.createElement("li");
+  li.classList.add("list-group-item")
+  li.textContent=i;
+
+ list.appendChild(li)
+ 
+ todoItems.length=0;
+ ```
+
+ ## html
+ ``` html
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS -->
+     <link rel="stylesheet" href="./css/bootstrap.min.css">
+     <!-- JS -->
+    
+</head>
+<body>
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+                
+            <div class="card m-5">
+                <div class="card-header text-center bg-success text-light"> TODO APPLICATION </div>
+                <div class="card-body">
+                    <form>
+                        <input type="text" class="form-control" placeholder=" Enter text" id="todoItem"/><br>
+                        <div class="text-center">
+                        <button type="button" onclick="submitTodoItem()" class="btn btn-secondary" >
+                            Add Item
+                        </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <ul class="list-group" id="list">
+
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+
+
+```
 
 
 
