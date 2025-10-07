@@ -623,6 +623,9 @@ for(var i of todoItems){
 
 
 ```
-
+### integrating api in js
+``` javascript
+fetch('https://api.restful-api.dev/objects').then(response =>response.js).then(data =>{ console.log(data)});
+```
 
 
