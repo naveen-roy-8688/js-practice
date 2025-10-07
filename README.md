@@ -627,5 +627,19 @@ for(var i of todoItems){
 ``` javascript
 fetch('https://api.restful-api.dev/objects').then(response =>response.js).then(data =>{ console.log(data)});
 ```
+### Array
+```javascript
+var sampleArray=[12,23,[23,[34,35],27,35,45],35]
+function normalize(sampleArray){
+    for (var i of sampleArray){
+        if(Array.isArray(i)){
+            sampleArray=[].concat(...i)
+        } else {
+            sampleArray.push(i)
+        }
+    }
+    return sampleArray;
+}
+```
 
 
