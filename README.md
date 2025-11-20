@@ -642,4 +642,40 @@ function normalize(sampleArray){
 }
 ```
 
+### promises
+```javascript
+const register=()=>{
+    return new Promise((resol,reject)=>{
+        setTimeout(()=>{
+            console.log("please register")
+            reject('fail')
+        },2000)
+    })
+}
+
+const login=()=>{
+    return new Promise ((resol,reject)=>{
+    setTimeout(()=>{
+        console.log("please login")
+        reject('fail')
+    },3000)
+})
+}
+const Thankyou=()=>{
+    return new Promise ((resol,reject)=>{
+    setTimeout(()=>{
+        console.log("Thankyou")
+        resol('done')
+    },5000)
+})
+}
+register().then(login).then(Thankyou).catch((errors)=>{console.log(errors)})
+o/p
+Promise {<pending>}[[Prototype]]: Promise[[PromiseState]]: "fulfilled"[[PromiseResult]]: undefined
+VM1088:4 please register
+VM1088:26 fail
+```
+
+
+
 
