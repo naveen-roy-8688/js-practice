@@ -675,6 +675,10 @@ Promise {<pending>}[[Prototype]]: Promise[[PromiseState]]: "fulfilled"[[Promise
 VM1088:4 please register
 VM1088:26 fail
 ```
+### JavaScript String trim()
+```
+The trim() method removes whitespace from both sides of a string:
+```
 
 
 
