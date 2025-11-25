@@ -690,6 +690,11 @@ document.getElementById("demo").innerHTML =
 "Length text1 = " + text1.length + "<br>Length text2 = " + text2.length;
 ```
 
+### The Concept of Data Types
+```
+When adding a number and a string, JavaScript will treat the number as a string.
+```
+
 
 
 
