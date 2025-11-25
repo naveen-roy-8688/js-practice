@@ -678,7 +678,10 @@ VM1088:26 fail
 ### JavaScript String trim()
 ```
 The trim() method removes whitespace from both sides of a string:
+
+The trimStart() method works like trim(), but removes whitespace only from the start of a string.
 ```
+
 
 
 
