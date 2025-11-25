@@ -680,6 +680,14 @@ VM1088:26 fail
 The trim() method removes whitespace from both sides of a string:
 
 The trimStart() method works like trim(), but removes whitespace only from the start of a string.
+The trimEnd() method works like trim(), but removes whitespace only from the end of a string.
+
+<script>
+let text1 = "     Hello World!     ";
+let text2 = text1.trimEnd();
+
+document.getElementById("demo").innerHTML =
+"Length text1 = " + text1.length + "<br>Length text2 = " + text2.length;
 ```
 
 
