@@ -694,6 +694,17 @@ document.getElementById("demo").innerHTML =
 ```
 When adding a number and a string, JavaScript will treat the number as a string.
 ```
+### How update the object
+``` var sampleObject={
+    name:"Naveen",
+}
+sampleOject.name='Hanuman'
+```
+another way to update the object.
+sampleObject['name']="Raju"
+
+```
+
 
 
 
