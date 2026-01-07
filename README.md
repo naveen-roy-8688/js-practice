@@ -705,6 +705,48 @@ sampleObject['name']="Raju"
 
 ```
 
+### pass by value 
+``` 
+var a=10;
+var b=a;
+b=20;
+console.log(b)
+console.log(a)
+```
+
+### pass by reference
+```
+var s={
+    name:"Tiger"
+}
+s1=s
+s1.name="Naveen"
+
+
+### map()
+```
+var a=[2,3,4,5,8,9]
+for(i=0;i<=a.length;i++){
+    if(i%2!==0){
+        console.log(a[i])
+    }
+}
+var a=[2,3,4,5,8,9]
+a.map(function(item){
+    return item*2
+})
+
+-----------
+var a=[2,3,4,5,8,9]
+a.map(function(item){
+    console.log(item%2)
+})
+```
+
+### filter()
+
+
+
 
 
 
