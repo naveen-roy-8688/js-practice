@@ -768,6 +768,20 @@ function comparision(i,u){
 
 console.log(comparision(i,5))
 ```
+###  fn
+```
+let i=Number(prompt("enter number"))
+let y=function(i,u){
+    if(i>u){
+        console.log(i,"is greater than", u)
+    }else
+    {
+       console.log(u,"is greater than", i) 
+    }
+}
+
+console.log(y(i,5))
+```
 
 
 
