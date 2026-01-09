@@ -754,6 +754,20 @@ for(let x=0;x<=3;x++){
     }
 }
 ```
+### fn
+```
+let i=Number(prompt("enter number"))
+function comparision(i,u){
+    if(i>u){
+        console.log(i,"is greater than", u)
+    }else
+    {
+       console.log(u,"is greater than", i) 
+    }
+}
+
+console.log(comparision(i,5))
+```
 
 
 
