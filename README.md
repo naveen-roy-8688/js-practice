@@ -745,6 +745,16 @@ a.map(function(item){
 
 ### filter()
 
+-----------
+```
+for(let x=0;x<=3;x++){
+    console.log("success",x)
+    for(let y=0;y<=3;y++){
+        console.log(x,y)
+    }
+}
+```
+
 
 
 
