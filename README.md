@@ -793,6 +793,17 @@ for(i=0;i<arr.length;i++){
 }
 console.log(small)
 ```
+### sum of the array
+```
+let arr=[20,40,60,70,10,5,90];
+let sum=0;
+for(i=0;i<arr.length;i++){
+    if(sum=sum + arr[i]){
+        console.log(sum)
+    }
+}
+console.log(sum)
+```
 
 
 
