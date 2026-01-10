@@ -782,6 +782,18 @@ let y=function(i,u){
 
 console.log(y(i,5))
 ```
+### find the samllest number from array.
+``` javascript
+``` let arr=[20,40,60,70,10,5,90];
+let small=arr[0];
+for(i=0;i<arr.length;i++){
+    if(small>arr[i]){
+        small=arr[i]
+    }
+}
+console.log(small)
+```
+
 
 
 
