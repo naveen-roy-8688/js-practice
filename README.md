@@ -805,6 +805,18 @@ for(i=0;i<arr.length;i++){
 console.log(sum)
 ```
 
+### Fetch()
+fetch("https://jsonplaceholder.typicode.com/users")
+.then(function(res){
+    console.log(res.json())
+    .then(function (data) {
+        console.log(data)
+        
+    })
+      
+})
+
+
 
 
 
