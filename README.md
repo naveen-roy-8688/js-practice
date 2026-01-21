@@ -816,6 +816,25 @@ fetch("https://jsonplaceholder.typicode.com/users")
       
 })
 
+### post method
+
+let obj={
+    titile:"this is post",
+    body:"this is post method body",
+    userid:2,
+}
+
+fetch("https://jsonplaceholder.typicode.com/posts",{
+    method="post",
+    body:JSON.stringify(obj),
+      headers:{
+          "content-type": "application/json",
+      },
+    
+})
+.then((res)=>re.json()).then(data)=>console.log(data));
+
+
 
 
 
