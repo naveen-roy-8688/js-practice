@@ -909,6 +909,12 @@ console.log(f)
 true + { a: 1 } // "true[object Object]"
 { a: 1 } + 1 // 1
 ```
+##
+```
+1 + "1" // "11"
+[1 ,2] + "1" // "1,21"
+true + "1" // "true1"
+```
 
 
 
