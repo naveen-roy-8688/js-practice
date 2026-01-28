@@ -982,6 +982,17 @@ let fishes = ['Salmon', 'Goldfish', 'Tuna'];
 
 console.log(fishes.length); // 3
 ```
+###
+```
+The if...else statement
+The if statement allows you to create a program that runs only if a specific condition is met.
+
+The syntax for the if statement is as follows:
+
+if (condition) {
+  // code to execute if condition is true
+}
+```
 
 
 
