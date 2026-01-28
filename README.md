@@ -895,6 +895,13 @@ var d=[3,5,7,9,12,67,94,33,7,5,12]
 var f=new Set(d)
 console.log(f)
 ```
+##
+```
+nested array
+var d=[3,5,7,9,[4,5,7,9,],12,67,[4,2,1,6,8],94,33,7,5,12]
+var f=d.flat()
+console.log(f)
+```
 
 
 
