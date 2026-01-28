@@ -872,6 +872,16 @@ console.log(a); // Works (var is function/global scoped)
 // console.log(b); //  Error (let is block scoped)
 // console.log(c); //  Error (const is block scoped)
 ```
+##
+```
+Undefined in JavaScript
+Undefined is a data type in JavaScript used to represent a variable that hasn't been assigned any value yet.
+
+Anytime you declared a variable without assigning any value, the undefined value will be assigned to that variable. For example:
+
+let first_name;
+```
+
 
 
 
