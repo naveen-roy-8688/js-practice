@@ -965,6 +965,23 @@ fishes.shift();
 console.log(fishes);
 // ['Goldfish', 'Tuna']
 ```
+##
+```
+The indexOf() method can be used to find and return the index of an item in the array.
+
+The method will return -1 when the item isn't found inside the array:
+
+let fishes = ['Salmon', 'Goldfish', 'Tuna'];
+
+let pos = fishes.indexOf('Tuna');
+
+console.log(pos); // 2
+To get the size of an array, you can access the length property:
+
+let fishes = ['Salmon', 'Goldfish', 'Tuna'];
+
+console.log(fishes.length); // 3
+```
 
 
 
