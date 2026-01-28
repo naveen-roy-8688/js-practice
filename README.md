@@ -946,6 +946,25 @@ birds.pop();
 console.log(birds);
 // ['Owl', 'Eagle']
 ```
+##
+```
+The unshift() method can be used to add an item from the front at index 0:
+
+let fishes = ['Salmon', 'Goldfish', 'Tuna'];
+
+fishes.unshift('Sardine');
+
+console.log(fishes);
+// ['Sardine', 'Salmon', 'Goldfish', 'Tuna']
+On the other hand, the shift() method can be used to remove an item from index 0:
+
+let fishes = ['Salmon', 'Goldfish', 'Tuna'];
+
+fishes.shift();
+
+console.log(fishes);
+// ['Goldfish', 'Tuna']
+```
 
 
 
