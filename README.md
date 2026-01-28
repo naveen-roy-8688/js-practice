@@ -882,6 +882,12 @@ Anytime you declared a variable without assigning any value, the undefined value
 let first_name;
 ```
 
+##
+Null in JavaScript
+The null value is a special data type that represents an empty or unknown value. Here's how you assign a variable as null:
+
+let first_name = null;
+
 
 
 
