@@ -915,6 +915,37 @@ true + { a: 1 } // "true[object Object]"
 [1 ,2] + "1" // "1,21"
 true + "1" // "true1"
 ```
+##
+```
+You can also assign a new value to a specific index using the assignment operator.
+
+Let's replace 'Parrot' with 'Vulture':
+
+let birds = ['Owl', 'Eagle', 'Parrot', 'Falcon'];
+birds[2] = 'Vulture';
+
+console.log(birds);
+// ['Owl', 'Eagle', 'Vulture', 'Falcon']
+```
+##
+```
+For example, you can use the push() method to add an item to the end of the array:
+
+let birds = ['Owl', 'Eagle'];
+
+birds.push('Sparrow');
+
+console.log(birds);
+// ['Owl', 'Eagle', 'Sparrow']
+Another method called pop() can be used to remove an item from the end of an array:
+
+let birds = ['Owl', 'Eagle', 'Sparrow'];
+
+birds.pop();
+
+console.log(birds);
+// ['Owl', 'Eagle']
+```
 
 
 
