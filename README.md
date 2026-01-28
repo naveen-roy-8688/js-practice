@@ -993,6 +993,11 @@ if (condition) {
   // code to execute if condition is true
 }
 ```
+###
+```
+The switch...case statement
+The switch statement is a part of core JavaScript syntax that allows you to control the execution flow of your code
+```
 
 
 
