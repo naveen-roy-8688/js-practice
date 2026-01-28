@@ -888,6 +888,14 @@ The null value is a special data type that represents an empty or unknown value.
 
 let first_name = null;
 
+##
+```
+To remove the duplicates from the array.
+var d=[3,5,7,9,12,67,94,33,7,5,12]
+var f=new Set(d)
+console.log(f)
+```
+
 
 
 
