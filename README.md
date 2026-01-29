@@ -998,6 +998,13 @@ if (condition) {
 The switch...case statement
 The switch statement is a part of core JavaScript syntax that allows you to control the execution flow of your code
 ```
+###
+```
+The rest parameter
+The rest parameter is a parameter that can accept any number of data as its arguments. The arguments will be stored as an array.
+
+You can define a rest parameter in the function header by adding triple dots ... before the parameter name.
+```
 
 
 
