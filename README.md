@@ -1030,6 +1030,19 @@ for (let i = 4; i >= 0; i--) {
   console.log(pattern);
 }
 ```
+###
+```
+Math.floor()
+Math.floor(x) returns the value of x rounded down to its nearest integer:
+```
+###
+```
+Math.round(x) returns the nearest integer:
+
+Examples
+Math.round(4.6);
+```
+
 
 
 
