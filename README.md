@@ -1005,6 +1005,21 @@ The rest parameter is a parameter that can accept any number of data as its argu
 
 You can define a rest parameter in the function header by adding triple dots ... before the parameter name.
 ```
+###
+```
+let pattern;
+
+for (let i = 1; i <= 10; i++) {
+  pattern = "";
+    for (let j = 1; j <= i; j++) {
+    pattern += "*";
+  }
+    
+  
+  console.log(pattern);
+}
+
+```
 
 
 
