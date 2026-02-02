@@ -1042,6 +1042,12 @@ Math.round(x) returns the nearest integer:
 Examples
 Math.round(4.6);
 ```
+###
+```
+Math.random() returns a random number between 0 (inclusive),  and 1 (exclusive):
+
+Math.random() always returns a number lower than 1.
+```
 
 
 
